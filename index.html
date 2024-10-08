@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script>
+        /*tudo em minusculo
+        objeto.metódo
+        
+        window.alert("boa noite!!");
+        alert("ola mundo!!");
+        document.write("boa noite galera!!!!!");
+        window.confirm("confirma a gravação?");
+        window.prompt("digite o seu nome:");
+
+        /*
+        variavel no javascript não é tipada, ou seja.
+        não preciso definir o tipo de variavel 
+
+        var n;
+        n=10;
+        alert("resultado: " +n);
+        n="nome";
+        alert("resultado: " +n);
+        n=17.62;
+        alert("resultado:" +n);
+
+        // vamos entrar com dois números é
+        //multiplica-lós */
+
+        /*
+        var n1,n2, total
+        n1=prompt("digite o primeiro numero: ");
+        n1=number.parseInt(n1);
+        n2=prompt("digite o segundo numero: ");
+        n2=parseInt(n2);
+        total = n1 + n2 ;
+        alert("total: "+ total);
+
+        */
+
+        // vamos entrar com dois números e 
+        //somá=los?
+
+        var n1,n2,n3, media
+        n1=prompt("digite o primeiro numero: ");
+        n1=parseInt(n1);
+        n2=prompt("digite o segundo numero: ");
+        n2=parseInt(n2);
+        n3=prompt("digite o segundo numero: ");
+        n3=parseInt(n3);
+
+        media = (n1 + n2 + n3) /3;
+        alert("media: "+ media);
+        alert("A media de "+ n1 +"com" + n2 + "com"+ n3 + " e igual a media" + media );
+
+        //trabalhando com literal steing
+        //inicia-se com crase (shift + tecla do lado da letra p)
+        // a variavel deve ser ${nome da variavel}
+    alert(`a media de ${n1} com ${n2} com ${n3} e igual a ${media}`);
+
+    // Vamos trabalhar com variavel string
+
+    var nome;
+    nome = prompt("digite o seu nome: ")
+    document.write(nome+'<br>');
+    document.write(nome.toLocaleUpperCase()+'<br>');
+    document.write(nome.toLocaleLowerCase()+'<br>');
+    document.write("nome tem: "+ nome;length + "caracteres");
+
+    var n;
+    n=prompt("digite um numero: ");
+    n=parsefloat(n);
+    if(n > 0){
+
+        alert("numero positivo");
+    } else {
+        alert("numero negativo");
+    }    
+
+    </script>
+    
+</body>
+</html>
